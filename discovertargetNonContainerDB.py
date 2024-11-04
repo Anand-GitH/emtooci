@@ -14,15 +14,15 @@ Agent ID can be fetched by querying agents with host name
 ListManagementAgents
 https://docs.oracle.com/en-us/iaas/api/#/en/management-agent/20200202/ManagementAgent/ListManagementAgents
 """
-l_compartmentID = "ocid1.compartment.oc1..aaaaaaaabbcyd3setuepewotjhanjsise5kwm6ssws3r3nrf7rcdthc65ohq"
-l_resourcename = "OHEMRepoDB" #To add custom name from Remedy it can be done here
-l_dbhostname = "129.158.255.241"
-l_dbport= "1521"
-l_dbservicename= "emrep.us.oracle.com"
-l_dbusername= "c3lz"   #Encoded in base64
-l_dbpassword= "d2VsY29tZTE="  #Encoded in base64
-l_dbrole= "U1lTREJB"   #Encoded in base64
-l_agentid= "ocid1.managementagent.oc1.iad.amaaaaaae5xv5jiad7fdsaotefubhudrnqy6gxfhqyisww5nw2fl4v6kss2a"
+l_compartmentID = ""
+l_resourcename = "" #To add custom name from Remedy it can be done here
+l_dbhostname = ""
+l_dbport= ""
+l_dbservicename= ""
+l_dbusername= ""   #Encoded in base64
+l_dbpassword= ""  #Encoded in base64
+l_dbrole= ""   #Encoded in base64
+l_agentid= ""
 l_discoverytype= "ADD"
 l_discoveryclient= "EMtoOCIDiscovery" #user defined name to identify from where discovery was initiated 
 
